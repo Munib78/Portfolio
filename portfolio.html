@@ -1,201 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./src/style.css">
-  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <!-- <script type="module" src="/src/main.js"></script> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>INTRODUCING MY SELF</title>
+    <style>
+        button:hover{
+             background-color:aqua;
+        }
+    </style>
 </head>
-
-
 <body>
-  <div id="app"></div>
-
-  <header id="header">
-    <h2>Munib</h2>
-
-    <nav>
-      <p class="nav_link"><a href="About" style="margin-left: 100px;">About</a></p>
-      <p class="nav_link"><a href="Projects" style=" margin-left: 100px; margin-right: 50px;">Projects</a></p>
-      <p class="nav_link"><a href="Contact" style="margin-left: 100px; margin-right: 50px;">Contact</a></p>
+    
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="../img/th.jpg" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+        
     </nav>
-
-    <div>
-
-    </div>
-
-  </header>
-
-
-  <main>
-
-    <div style="background-image: linear-gradient(-90deg ,#213547 , rgb(32, 164, 240)); margin-bottom: 10px;">
-    <div class="introduction">
-      <p id="name">Hii, I am Munib Bakrawala</p>
-      <p id="profession">Software Developer</p>
-
-      <p id="skills">I know languages and libraries like C, C++, Java, Python, JavaScript, C#,
-        NodeJs, ExpressJs, ReactJs, Next.Js, Django, MySQL, MongoDB
-        HTML, CSS, Numpy, Pandas, Sci-kit learn. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto
-        similique eius, non, iste eligendi labore assumenda repellat enim voluptatem blanditiis velit, a voluptatibus
-        veniam quisquam tempora facilis. Repudiandae, nobis.
-      </p>
-
-    </div>
-      
-
-    </div>
-
-
-    <div id="project_section">
-
-      <article>
-      <p id="heading"> Projects </p>
-      <br>
-
-        <section>
-      
-      <p><strong>The Golden Palace</strong> - .NET FRAMEWORK BASED HOTEL ROOM BOOKING</p>
-
-      <ul>
-
-        <li>Designed and developed a web application using <strong>.NET Framework</strong> and
-          <strong>C#</strong> as the backend language with a <strong>MySQL database</strong>.
-        </li>
-
-        <li>Added a room booking feature for customers, allowing them to book up to 3 rooms at a time.</li>
-        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni harum, iure excepturi nisi incidunt ut accusantium praesentium molestias cum quia sint officia velit consequuntur commodi aliquam beatae ullam. Iure, explicabo.</li>
-      </ul>
-
-
-
-      </section>
-
-      <div class="proj1_img">
-        <img src="./logos/download.jfif" alt="project image" class="imgspace">
-        <img src="./logos/download.jfif" alt="project image" class="imgspace">
-        <img src="./logos/download.jfif" alt="project image" class="imgspace">
-
-      </div>
-
-      <section>
-
-      <p><strong>HealthLink</strong> -  API-BASED DOCTOR APPOINTMENT BOOKING AND PATIENT HEALTH RECORD MANAGMENT</p>
-      
-      <ul>
-        <li>Designed and developed a web application in which the user can book appointments with their
-          desired doctor.</li>
-
-        <li>Doctors can generate prescriptions based on reports uploaded by patients.</li>
-
-        <li>The technologies used are <strong>ExpressJs</strong> for the back-end, <strong>MongoDB</strong>for the Database,
-          <strong>Next.js</strong> and <strong>React</strong> for the front-end.
-        </li>
-
-        <li>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur earum reiciendis, suscipit sapiente cupiditate quibusdam, sequi assumenda facere fuga voluptates saepe eaque ipsa qui explicabo possimus! Culpa perspiciatis nihil unde.
-        </li>
-
-      </ul>
-
+    <section class ="background firstSection" id="home">
+        <div class ="box-main">
+            <div class="Firsthalf">
+              <p class="text-big">Munib Bakrawala</p>
+              <p class="text-small">I am a student of Computer Engineering at Dharamsingh Desai University</p>
+            </div>
+           
     </section>
 
-    <div class="proj1_img">
-      <img src="./logos/download.jfif" alt="project image" class="imgspace">
-      <img src="./logos/download.jfif" alt="project image" class="imgspace">
-      <img src="./logos/download.jfif" alt="project image" class="imgspace">
-
-    </div>
-
-    <section>
-      
-      <p><strong>STOCK MANAGEMENT</strong> - WEB SERVICES BASED STOCK MANAGEMENT APP </p>
-
-      <ul>
-
-        <li> Developed web services-based stock management app for shopkeepers.</li>
-        <li> The shopkeeper can add, update, read, delete the item and category. </li>
-        <li>The technologies used are <strong>.Net Framework</strong> based web services,
-          <strong>C#</strong> for the back-end, <strong>MySQL</strong> for the Database,
-          <strong>HTML and CSS</strong> for the front-end.
-        </li>
-
-        <li>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sunt ipsam, unde sequi cum dolorem, modi quod inventore sed sint, numquam tempore expedita vel officia necessitatibus in aliquid ratione soluta.
-        </li>
-
-      </ul>
-
+    <section class="contact" id="contactme">
+        <h2 class ="text-center">Contact Me</h2>
+            <div  class="form">
+            <input type="text" name="name" id="name" placeholder="Type your name">
+            <input type="text" name="phone" id="phone" placeholder="Type your phone">
+            <input type="email" name="email" id="email" placeholder="Type your email">
+            <input type="text"  name="text"  id="text" placeholder="Type your message">
+            <button class="btn btn-dark" class="submit">Submit</button>
+            <br><br><br>
+            <a class="pic" href="https://www.instagram.com/"><img src="instagram.png" width="50rem" ></a>
+            <a href="https://www.linkedin.com/feed/"><img src="linkedin.png" width="50rem" ></a>
+        </div>
     </section>
 
-    <div class="proj1_img">
-      <img src="./logos/download.jfif" alt="project image" class="imgspace">
-      <img src="./logos/download.jfif" alt="project image" class="imgspace">
-      <img src="./logos/download.jfif" alt="project image" class="imgspace">
-
-    </div>
-
-      </article>
-
-    </div>
-
-
-    <div>
-
-      <p id="heading1">Contact Me</p>
-      <div id="forum"> 
-
-        <form action="" > 
-          <div ><label for="fName" style="margin-right: 23%; width: 50px; margin-top: 15%;">First Name: </label>   
-          </div>
-          
-          <sapn>
-          <label for="lName" style="padding-bottom: 10px; margin-top: -2%; margin-left: 9%;">Last Name: </label> <br>
-          </span>
-
-          <input type="text" name="fName" id="fName" placeholder="Write your Name" required style="width: 13%; padding: 12px 20px; box-sizing: border-box;
-          margin-left: 1%;
-          border: 1px solid #555;">
-  
-         
-          <input type="text" name="lName" id="lName" placeholder="Write your Name" required style="margin-left: 60px; width: 13%; padding: 12px 20px; box-sizing: border-box;
-          border: 1px solid #555;"> <br><br>
-  
-          <label for="Email" style="margin-right: 22%;">Email Address: </label> <br>
-          <input type="email" name="Email" id="Email" placeholder="Write your email address here" required size="22" style="width: 29.5%; padding: 12px 20px; box-sizing: border-box;
-           margin-left: 1%; border: 1px solid #555;"> <br> <br>
-  
-          <label for="Message" style="margin-right: 25%;">Message: </label> <br>
-          <textarea name="Message" id="Message" placeholder="Enter your Messgae" style="margin-top: 10px; margin-left: 1%;width: 29.5%; padding: 12px 20px; box-sizing: border-box;
-          border: 1px solid #555; height: auto;"></textarea> <br> <br>
-  
-          <button type="submit" class="button button1"> Submit</button>
-        </form>
-      </div>
-
-    </div>
-
-  </main>
-
-  
-  <footer>
-    <div id="footerimgline">
-       <div> <span>Github: </span><a href="https://github.com/Munib78"> <img src="./logos/Github.png" alt="Github img" style="height: 50px; width: 50px; border-radius: 50%; "> </a>>
-       </div>
-       <div><span>LinkedIn: </span> <a href="https://www.linkedin.com/in/munib-bakrawala-b13555228/"> <img src="./logos/linkedIn.png" alt="LinkedIn image" style="height: 50px; width: 50px; border-radius: 50%; "> </a>
-       </div>
-       <div><span>CodeChef: </span><a href="https://www.codechef.com/users/munib78"> <img src="./logos/CodeChef.jfif" alt="CodeChef image" style="height: 50px; width: 50px; border-radius: 50%; "> </a> 
-       </div>
+    <section class="about" id="about">
+    <div class="text">
+        <h2 class ="text-ct">About Me</h2>
        
-       <div><span>LeetCode: </span> <a href="https://leetcode.com/u/munibbakrawala/"> <img src="./logos/leetcode.png" alt="leetcode image" style="height: 50px; width: 50px; border-radius: 50%; "> </a>
-       </div>
+           <h3> HELLO!! My name is Munib</h3>
+           <div class="text-v">
+            
+            Name : Munib Bakrawala
+            <br>
+            Age: 18
+            <br>
+            Degre: B.tech in Computer Engineering
+            <br>
+            City: Gandhinagar
+            <br>
+            Hobby: Eating new Food items,playing badminton
+            <br>
+            Intrest: Learning new things,travelling,listing music
+            <br>
+            Primary : Jay Jalaram International School
+             <br>
+            Secondary and Higher Secondary : M.B. Patel English Medium School
+            <br>
+            Graduation: Dharamsingh Desai University
+           </div>
+      <div>
+          
+<table>
+    <tr>
+      <th>School</th>
+      <th>Standard</th>
+      <th>Percentage</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>M.B.Patel English Medium School</td>
+      <td>10<sup>th</sup></td>
+      <td>85.33%</td>
+      <td>A2</td>
+    </tr>
+    <tr>
+      <td>M.B.Patel English Medium School</td>
+      <td>12<sup>th</sup></td>
+      <td>85.66%</td>
+      <td>A2</td>
+    </tr>
+    <tr>
+      <td>M.B.Patel English Medium School</td>
+      <td>GUJCET</td>
+      <td>98.5 PR</td>
+      <td>A1</td>
+    </tr>
+    <tr>
+      <td>M.B.Patel English Medium School</td>
+      <td>JEE</td>
+      <td>91 PR</td>
+      <td>A1</td>
+    </tr>
+  </table>
       </div>
-    <p id="copyright">&#169; 2025, all Rights Reserved</p>
-  </footer>
+    
+    </section>
+    
+    
+    <section class="Skill" id="skill">
+        <div class="top_div" style="background-color:  antiquewhite;" >
+            <h1>MY SKILLS</h1>
+            <hr>
+            </div>
+        <div class="wranglerr">
+            <!--<div class="top_div">
+                <h1>MY SKILLS</h1>
+                <hr>
+            </div>-->
+            <div class="content">
+                <img src="../img/html.jpg" alt="html logo">
+                <h2>html</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Quia, porro. Sed exercitationem aspernatur rem labore obcaecati repellendus debitis adipisci hic ducimus.
+                      Aliquid veniam voluptatibus consequaktur suscipit corrupti excepturi repudiandae temporibus!</p>
+                
+            </div>
+            <div class="content">
+                <img src="../img/css.jpg" alt="css logo">
+                <h2>css</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Quia, porro. Sed exercitationem aspernatur rem labore obcaecati repellendus debitis adipisci hic ducimus.
+                      Aliquid veniam voluptatibus consequaktur suscipit corrupti excepturi repudiandae temporibus!</p>
+                
+            </div>
+            <div class="content">
+                <img src="../img/c_lang.jpg" alt="c language logo">
+                <h2>c language</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Quia, porro. Sed exercitationem aspernatur rem labore obcaecati repellendus debitis adipisci hic ducimus.
+                      Aliquid veniam voluptatibus consequaktur suscipit corrupti excepturi repudiandae temporibus!</p>
+                
+            </div>
+            <div class="content">
+                <img src="../img/c++.jpg" alt="c++ logo">
+                <h2>c++</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Quia, porro. Sed exercitationem aspernatur rem labore obcaecati repellendus debitis adipisci hic ducimus.
+                      Aliquid veniam voluptatibus consequaktur suscipit corrupti excepturi repudiandae temporibus!</p>
+                
+            </div>
+        </div>
+
+    </section>
+
 
 </body>
-
 </html>
